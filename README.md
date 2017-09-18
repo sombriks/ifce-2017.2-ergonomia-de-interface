@@ -1,6 +1,8 @@
 # ifce-2017.2-ergonomia-de-interface
 
 - estudo em wireframe de um aplicativo de vender sanduíches online. deve conter um mockup de ao menos uma tela também
+  - [sombriks](https://github.com/sombriks)
+  - [macabeus](https://github.com/macabeus)
 
 ## feature-storm
 
@@ -45,3 +47,17 @@
 - S0005-detalhe-pedido
 - S0006-lista-usuarios
 - S0007-detalhe-usuario
+
+## wireframe
+
+![s0001](imgs/s0001.jpg)
+![s0002](imgs/s0002.jpg)
+![s0003](imgs/s0003.jpg)
+![s0004](imgs/s0004.jpg)
+![s0005](imgs/s0005.jpg)
+![s0006](imgs/s0006.jpg)
+![s0007](imgs/s0007.jpg)
+
+## Mockup
+
+**TBD**
