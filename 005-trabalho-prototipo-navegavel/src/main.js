@@ -1,15 +1,23 @@
 
 require("./main.css")
 
-const Vue = require("vue");
-const VueRouter = require("vue-router");
-const VueMaterial = require("vue-material");
+const Vue = require("vue")
+const VueRouter = require("vue-router")
+const VueMaterial = require("vue-material")
 
-Vue.use(VueRouter);
-Vue.use(VueMaterial);
+Vue.use(VueRouter)
+Vue.use(VueMaterial)
 
+Vue.material.registerTheme('default', {
+  primary: "amber",
+  accent: 'lime',
+  warn: 'red',
+  background: 'white'
+})
+
+Vue.component("navbar", require("./components/navbar.vue"))
 
 window.rootvm = new Vue({
   render: r => r(require("./components/base-router.vue")),
   el: "#app",
-});
+})
