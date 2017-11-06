@@ -9,6 +9,7 @@ Vue.use(VueRouter)
 Vue.use(VueMaterial)
 
 // ver documentação aqui: http://vuematerial.io/#/
+// ícones aqui: https://material.io/icons/#ic_shopping_cart
 Vue.material.registerTheme('default', {
   primary: "amber",
   accent: 'lime',
