@@ -1,5 +1,10 @@
 <template>
-  <div>A</div>
+  <div>
+    <navbar titulo="Meus cartões"></navbar>
+    <md-layout md-gutter md-column>
+      
+    </md-layout>
+  </div>
 </template>
 
 <script>

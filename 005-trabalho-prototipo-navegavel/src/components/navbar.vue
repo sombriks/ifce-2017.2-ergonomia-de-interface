@@ -6,15 +6,19 @@
         <md-icon>menu</md-icon>
       </md-button>
       <md-menu-content>
-        <md-menu-item>
+        <md-menu-item href="#/s0001-lista-ofertas">
           <md-icon>star</md-icon>
           <span>Ofertas</span>
         </md-menu-item>
-        <md-menu-item>
+        <md-menu-item href="#/s0003-carrinho">
+          <md-icon>shopping_cart</md-icon>
+          <span>Meu carrinho</span>
+        </md-menu-item>
+        <md-menu-item href="#/s0004-lista-pedidos">
           <md-icon>hourglass_full</md-icon>
           <span>Últimos pedidos</span>
         </md-menu-item>
-        <md-menu-item>
+        <md-menu-item href="#/s0006-lista-usuarios">
           <md-icon>face</md-icon>
           <span>Perfil</span>
         </md-menu-item>
