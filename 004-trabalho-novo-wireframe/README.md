@@ -30,8 +30,8 @@
 - Perfis
   - S0006-lista-usuarios
   - S0007-detalhe-usuario
-  - Endereço
-    - S0008-lista-endereco
+  - Endereços
+    - S0008-lista-enderecos
     - S0009-detalhe-endereco
   - Formas de pagamento
     - S0010-lista-formas-pagamento

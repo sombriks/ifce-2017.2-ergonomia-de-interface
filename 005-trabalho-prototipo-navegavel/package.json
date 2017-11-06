@@ -1,0 +1,33 @@
+{
+  "name": "005-trabalho-prototipo-navegavel",
+  "version": "1.0.0",
+  "description": "Layout líquido pra atender web e mobile",
+  "main": "index.js",
+  "scripts": {
+    "dev": "budo src/main.js:build.js -o -l -H 127.0.0.1"
+  },
+  "keywords": [],
+  "authors": [
+    "Leonardo silveira",
+    "Bruno Macabeus"
+  ],
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "browserify-css",
+      "vueify"
+    ]
+  },
+  "dependencies": {
+    "material-design-icons-iconfont": "^3.0.3",
+    "vue": "^2.5.3",
+    "vue-material": "^0.8.1",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "browserify-css": "^0.12.1",
+    "budo": "^10.0.4",
+    "vueify": "^9.4.1"
+  }
+}
