@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <router-view></router-view>  
-  </div>
+  <md-layout md-gutter>
+    <md-layout></md-layout>
+    <md-layout md-column md-gutter md-flex-xsmall="100" md-flex-small="80" md-flex-medium="70"  md-flex-large="50">
+      <router-view></router-view>  
+    </md-layout>
+    <md-layout></md-layout>
+  </md-layout>
 </template>
 <script>
 const VueRouter = require("vue-router");
