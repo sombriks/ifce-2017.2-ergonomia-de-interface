@@ -19,6 +19,9 @@ Vue.material.registerTheme('default', {
 
 
 Vue.component("navbar", require("./components/navbar.vue"))
+Vue.component("resumo-oferta", require("./components/resumo-oferta.vue"))
+Vue.component("detalhe-oferta", require("./components/detalhe-oferta.vue"))
+
 
 window.rootvm = new Vue({
   render: r => r(require("./components/base-router.vue")),
